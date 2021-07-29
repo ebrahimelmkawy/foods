@@ -1,0 +1,370 @@
+*{
+    margin: 0px; padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: lato;
+    /* background-color: #999999; */
+}
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.logo{
+    width: 100px;
+    margin-top: 20px;
+    float: left;
+}
+.main-nav{
+    float: right; 
+    margin: 55px;
+    list-style: none;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+.main-nav li a:hover{
+    color: orange;
+    text-decoration: underline;
+
+}
+.hero-box{
+   position: absolute;  top: 40%; left: 10%;
+
+}
+h1{
+    color: white;
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.btn:link , .btn:visited{
+    border: orange 2px solid;
+    border-radius: 10px;
+    margin-left: 20px;
+    color: orange;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.btn:hover,.btn:active{
+    color: white;
+    background-color: orange;
+}
+section{
+    padding: 40px 0px;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+hr{
+    width: 10%;
+    margin: 10px auto;
+    
+    border: orange 3px solid;
+    background-color: orange;
+    
+}
+.features-info{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: lighter;
+   
+    
+}
+
+.box{
+    margin-top: 30px; 
+    margin-bottom: 10px;
+}
+.box i{
+    color: orange; font-size: 50px;
+    margin-left: 100px;
+}
+.box h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box p{
+   text-align: justify;
+}
+.meals{
+    padding: 0px;
+    
+}
+.meal{
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+.meal img{
+    width: 100%;
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+.meal img:hover{
+    transform: scale(1.3);
+    opacity: 1;
+}
+.works{
+    background-color: #999999;
+}
+.iphone{
+    margin-top: 10px;
+    width: 40%;
+}
+.work:first-child{
+    text-align: right;
+    padding-right: 50px;
+}
+.step{
+     display: flex; 
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.step div{
+    width: 50px; height: 50px;
+    border: 2px solid orange;
+    border-radius: 50px;
+    margin-right: 15px;
+    text-align: center;
+    padding: 13px;
+    font-weight: bold;
+}
+.step p{
+    line-height: 48px; 
+    text-align: center;
+}
+
+.download{
+    padding: 0;
+    margin-left: 12px;
+    margin-right: 20px;
+}
+
+.download img{
+    height: 50px;
+    
+}
+.city img{
+    width: 100%;
+}
+.city h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.city-info{
+    display: flex;
+    margin-bottom: 15px;
+}
+.city-info i{
+    padding-right: 10px;
+    color: orange;
+
+}
+.city-info a{
+
+    color: orange;
+
+}
+.testimonials {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(../images/back-customers.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    font-style: italic;
+}
+.testimonials i{
+
+}  
+
+.testimonials p{
+    padding: 15px ;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    
+}
+.testimonials img{
+    width: 50px; height: 50px;
+    border-radius: 50px;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+.sign{
+    background-color: #e4e4e4;
+}
+.upper , .middle ,.down {
+    background-color: white;
+    margin-bottom: 5px;
+    
+}
+.upper h3{
+    font-size: 25px;
+    font-weight: lighter;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: rgb(133, 132, 132);black;
+}
+.upper span{
+    font-size: 40px;
+    font-weight: lighter;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: orange;
+}
+.upper p{
+    font-size: 15px;
+    font-weight: lighter;
+    padding-left: 10px;
+    padding-bottom: 5px;
+     color:  rgb(133, 132, 132);
+    
+}
+.middle i{
+    color: orange;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+     float: left; 
+}
+.middle p{
+    color: rgb(133, 132, 132);
+    font-size: 25px;
+    font-weight: lighter;
+    padding-bottom: 5px;
+    display: block;
+    
+    
+}
+.down{
+    text-align: center;
+    padding: 20px;
+}
+.botton{
+    
+     border: 1px solid orange;
+     border-radius: 6px;
+     color: orange;
+     text-decoration: none;
+     padding: 5px 15px;
+     text-align: center;
+}
+.botton:hover{
+    color: white;
+    background-color: orange;
+}
+
+label{
+    font-weight: bold;
+}
+input[type=text] , input[type=email] , select ,textarea {
+    padding: 7px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    /* border: solid 2px orange; */
+    /* outline: none; */
+}
+input[type=checkbox]{
+    margin-bottom: 8px;
+    margin-top: 8px;
+
+}
+
+button[type=submit]  {
+    padding: 7px 15px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border: solid 1px orange;
+    color: orange;
+    background-color: white;
+    font-size: 19px;
+}
+button[type=submit]:hover{
+    background-color: orange;
+    color: white;
+}
+ 
+footer{
+    background-color: #333;
+}
+footer p{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+.footer-nav{
+    float: left;
+    list-style: none;
+}
+.footer-nav li{
+    display: inline-block;
+    margin-left: 20px ;
+    margin-top: 20px;
+    
+}
+
+.footer-nav li a{
+    color: white;
+    text-decoration: none;
+    
+}
+.footer-nav li a:hover{
+    color: orange;
+    text-decoration: underline;
+    
+}
+.right-nav{
+    list-style: none;
+    float: right;
+    
+}
+.right-nav li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.right-nav li a{
+    color: white;
+    
+}
+.right-nav li a:hover{
+    color: orange;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
